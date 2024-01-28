@@ -1,0 +1,31 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.header-navigation {
+    font-weight: 500;
+    font-size: 14px;
+}
+.list-button {
+    font-weight: 500;
+    font-size: 16px;
+}
+.description-card > h3{
+     font-weight: 700;
+     font-size: 18px;
+}
+.description-card > p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-address, .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+}

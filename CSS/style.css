@@ -7,7 +7,7 @@
     --dark-background-color: #2F303A;
 }
 
-.header-link{
+.header-link {
     color: var(--black-color);
 }
 
@@ -19,16 +19,16 @@
     color: var(--gray-color);
 }
 
-.efect-for-busines > h1 {
+.efect-for-busines>h1 {
     color: var(--white-color);
 }
 
-.efect-for-busines > button {
+.efect-for-busines>button {
     color: var(--white-color);
     background-color: var(--blue-background-color);
 }
 
-.efect-for-busines{
+.efect-for-busines {
     background-color: var(--dark-background-color);
 }
 
@@ -40,18 +40,19 @@
     color: var(--gray-color);
 }
 
-.what-we-work-img > h2 {
+.what-we-work-img>h2 {
     color: var(--black-color);
 }
 
-.our-team > h2 {
-    color: var(--black-color);
-}
-.our-team-worker-description > h3 {
+.our-team>h2 {
     color: var(--black-color);
 }
 
-.our-team-worker-description > p {
+.our-team-worker-description>h3 {
+    color: var(--black-color);
+}
+
+.our-team-worker-description>p {
     color: var(--gray-color);
 }
 
@@ -63,6 +64,7 @@
 .footer-link {
     color: var(--white-color);
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -76,50 +78,60 @@ body {
 .header-navigation {
     font-weight: 500;
     font-size: 14px;
+    line-height: 1.14;
 }
 
 .efect-for-busines>h1 {
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.36;
 }
 
 .efect-for-busines>button {
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.87;
 }
 
 .efect-for-busines-item>h4 {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.14;
 }
 
 .efect-for-busines-item>p {
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
 }
 
 .what-we-work-img>h2 {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
 }
 
 .our-team>h2 {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
 }
 
 .our-team-worker-description>h3 {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.18;
 }
 
 .our-team-worker-description>p {
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.18;
 }
 
 .footer-address,
 .footer-link {
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
 }

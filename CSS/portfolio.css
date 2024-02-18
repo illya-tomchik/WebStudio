@@ -5,6 +5,11 @@
     --white-color: #FFFFFF;
     --dark-background-color: #2F303A;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .header-link {
     color: var(--black-color);
@@ -69,4 +74,23 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.header {
+    margin-top: 32px;
+    margin-bottom: 94px;
+}
+.post-list{
+    margin-bottom: 56px;
+}
+.card{
+    margin-top: 50px;
+}
+.list-card{
+    margin-top: 30px;
+}
+.footer{
+    margin-top: 94px;
+}
+.footer .logo{
+    margin-bottom: 20px;
 }

@@ -26,6 +26,9 @@
 footer {
     background-color: var(--dark-background-color);
 }
+.description-card p{
+    color: var(--gray-color);
+}
 
 .footer-link {
     color: var(--gray-color);

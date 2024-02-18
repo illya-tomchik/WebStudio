@@ -23,7 +23,7 @@
     color: var(--gray-color);
 }
 
-.footer-list {
+footer {
     background-color: var(--dark-background-color);
 }
 
@@ -57,13 +57,13 @@ body {
     line-height: 1.62;
 }
 
-.description-card>h3 {
+.description-card h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
-.description-card>p {
+.description-card p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -90,7 +90,6 @@ body {
 }
 .footer{
     margin-top: 94px;
+    padding: 60px 0;
 }
-.footer .logo{
-    margin-bottom: 20px;
-}
+

@@ -66,9 +66,12 @@ footer {
     background-color: var(--dark-background-color);
 }
 
-.footer-address,
-.footer-link {
+.footer-address {
     color: var(--white-color);
+}
+
+.footer-link {
+    color: var(--gray-color);
 }
 
 body {
@@ -100,6 +103,7 @@ body {
 }
 
 .efect-for-busines-item h4 {
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -111,7 +115,7 @@ body {
     line-height: 1.71;
 }
 
-.what-we-work-img h2 {
+.what-we-work h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -143,11 +147,13 @@ body {
 }
 
 .header {
-    margin-top: 32px;
+    margin: 25px 0;
 }
 
-.efect-for-busines h1 {
+.efect-for-busines {
     padding: 200px 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .efect-for-busines button {
@@ -160,7 +166,7 @@ body {
     margin-bottom: 94px;
 }
 
-.what-we-work-img h2 {
+.what-we-work h2 {
     margin-bottom: 50px;
 }
 
@@ -174,3 +180,64 @@ body {
     padding: 60px 0;
 }
 
+.header-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-item:nth-child(3) {
+    margin-right: 300px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.efect-for-busines-list-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.efect-for-busines-item {
+    width: 270px;
+}
+
+.what-we-work h2 {
+    text-align: center;
+}
+
+.what-we-work-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team h2 {
+    text-align: center;
+}
+
+.our-team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list img {
+    margin-bottom: 20px;
+}

@@ -5,7 +5,8 @@
     --white-color: #FFFFFF;
     --dark-background-color: #2F303A;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -23,10 +24,12 @@
     color: var(--gray-color);
 }
 
+
 footer {
     background-color: var(--dark-background-color);
 }
-.description-card p{
+
+.description-card p {
     color: var(--gray-color);
 }
 
@@ -78,21 +81,79 @@ body {
     font-size: 14px;
     line-height: 1.71;
 }
+
 .header {
-    margin-top: 32px;
+    margin: 25px 0;
     margin-bottom: 94px;
 }
-.post-list{
+
+.post-list {
     margin-bottom: 56px;
 }
-.card{
+
+.card {
     margin-top: 50px;
 }
-.list-card{
+
+.list-card {
     margin-top: 30px;
 }
-.footer{
+
+.footer {
     margin-top: 94px;
     padding: 60px 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-item:nth-child(3) {
+    margin-right: 300px;
+}
+
+.post-list {
+    display: flex;
+    justify-content: center;
+}
+
+.list-button:not(:last-child) {
+    margin-right: 8px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-card {
+    width: 370px;
+    margin-bottom: 30px;
+}
+
+.footer-list img {
+    margin-bottom: 20px;
+}

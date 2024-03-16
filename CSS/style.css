@@ -3,6 +3,7 @@
     --black-color: #212121;
     --gray-color: #757575;
     --white-color: #FFFFFF;
+    --whitegray-color: #F5F4FA;
     --blue-background-color: #2196F3;
     --dark-background-color: #2F303A;
 }
@@ -171,12 +172,10 @@ body {
 }
 
 .our-team h2 {
-    margin-top: 188px;
     margin-bottom: 50px;
 }
 
 .footer {
-    margin-top: 138px;
     padding: 60px 0;
 }
 
@@ -248,7 +247,17 @@ figure.our-team-item {
 .our-team-item img {
     width: 100%;
 }
+ .our-team{
+    padding: 50px 0;
+    background-color: var(--whitegray-color);
+}
+.our-team-item{
+    background-color: white;
+}
 
 .footer-list img {
     margin-bottom: 20px;
+}
+section.our-team-list{
+    padding: 50px 0;
 }

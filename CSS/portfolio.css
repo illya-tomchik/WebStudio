@@ -157,10 +157,12 @@ ul {
 .footer-list img {
     margin-bottom: 20px;
 }
-.img-card{
+
+.img-card {
     margin: 0;
     border: 1px solid whitesmoke;
 }
-.description-card{
+
+.description-card {
     margin-left: 24px;
 }

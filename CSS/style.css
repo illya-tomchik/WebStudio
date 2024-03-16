@@ -239,16 +239,16 @@ ul {
 }
 
 
-figure.our-team-item{
+figure.our-team-item {
     margin: 0;
     width: 270px;
     text-align: center;
 }
-.our-team-item img{
+
+.our-team-item img {
     width: 100%;
 }
 
 .footer-list img {
     margin-bottom: 20px;
 }
-

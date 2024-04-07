@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -166,3 +166,35 @@ ul {
 .description-card {
     margin-left: 24px;
 }
+*{
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+}
+.post-button{
+    border: 0px;
+    padding: 6px 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+}
+.post-button:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+.img-card , .img-card img{
+    width: 100%;
+
+}
+
+
+.list-card{
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+

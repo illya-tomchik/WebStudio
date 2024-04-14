@@ -95,10 +95,6 @@ body {
     margin-top: 50px;
 }
 
-.list-card {
-    margin-top: 30px;
-}
-
 .footer {
     margin-top: 94px;
     padding: 60px 0;
@@ -151,7 +147,6 @@ ul {
 
 .list-card {
     width: 370px;
-    margin-bottom: 30px;
 }
 
 .footer-list img {

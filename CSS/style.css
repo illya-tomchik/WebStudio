@@ -25,14 +25,17 @@
 .header-link3 {
     color: var(--gray-color);
 }
-.header-link:hover{
+
+.header-link:hover {
     color: var(--blue-color);
-    
+
 }
-.header-link2:hover{
+
+.header-link2:hover {
     color: var(--blue-color);
 }
-.header-link3:hover{
+
+.header-link3:hover {
     color: var(--blue-color);
 }
 
@@ -334,16 +337,20 @@ figure.our-team-item {
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    padding-top: 10px ;
+    padding-top: 10px;
     padding-bottom: 40px;
-    
+
 }
+
 .our-team-list-link:hover {
     background-color: #2196F3;
     border-radius: 30px;
+
+
+}
+
+.our-team-list-link:hover .our-team-svg {
     fill: #FFFFFF;
-
-
 }
 
 .our-team-list-link {
@@ -357,7 +364,8 @@ figure.our-team-item {
 .our-team-svg-use {
     fill: var(--gray-color);
 }
-.h2-client{
+
+.h2-client {
     text-align: center;
 }
 
@@ -371,45 +379,43 @@ figure.our-team-item {
     padding-top: 66px;
     border: 1px solid #757575;
 }
-.svg-client:hover{
+
+.svg-client:hover {
     border-color: #2196F3;
 }
 
 .svg-use-client {
     fill: #757575;
 }
-.div-footer-reg {
-}
+
+.div-footer-reg {}
 
 
 .h3-footer-reg {
     text-align: center;
 }
-.svg-use-client:hover{
-    fill: #2196F3;
 
-}
-.our-team-svg-use:hover{
-    fill: #FFFFFF;
+.svg-use-client:hover {
+    fill: #2196F3;
 
 }
 
 .article-reg {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-.footer-reg-list-link{
+
+.footer-reg-list-link {
     margin-left: 15px;
     background-color: #212121;
     border-radius: 30px;
 }
-.footer-reg-list-link:hover{
-        background-color: #2196F3;
-        fill: #FFFFFF;
+
+.footer-reg-list-link:hover {
+    background-color: #2196F3;
+    fill: #FFFFFF;
 }
 
 
 
-.svg-footer-reg {
-
-}
+.svg-footer-reg {}

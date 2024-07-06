@@ -19,11 +19,21 @@
 }
 
 .header-link2 {
-    color: var(--blue-color);
+    color: var(--gray-color);
 }
 
 .header-link3 {
     color: var(--gray-color);
+}
+.header-link:hover{
+    color: var(--blue-color);
+    
+}
+.header-link2:hover{
+    color: var(--blue-color);
+}
+.header-link3:hover{
+    color: var(--blue-color);
 }
 
 .efect-for-busines h1 {

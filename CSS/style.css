@@ -323,11 +323,64 @@ figure.our-team-item {
 .our-team-div-svg {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+    padding-top: 10px ;
+    padding-bottom: 40px;
+    
 }
 
-.our-team-svg:hover {
-    background-color: var(--blue-color);
-    border-radius: 30px;
+
+
+.our-team-svg-use {
+    fill: var(--gray-color);
+}
+.our-team-svg:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.h2-client{
+    text-align: center;
 }
 
-.our-team-svg-use {}
+.svg-div-client {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg-client {
+    padding-bottom: 110px;
+    padding-top: 66px;
+    border: 1px solid #757575;
+}
+.svg-client:hover{
+    border-color: #2196F3;
+}
+
+.svg-use-client {
+    fill: #757575;
+}
+.div-footer-reg {
+}
+.our-team-list-link:hover{
+     background-color: #2196F3;
+    
+
+}
+.our-team-list-link{
+    padding: 20px;
+}
+.our-team-list-link:hover  .our-team-svg {
+    fill: #FFFFFF;
+}
+
+.h3-footer-reg {
+    text-align: center;
+}
+
+.article-reg {
+    display: flex;
+    justify-content: center;
+}
+
+.svg-footer-reg {}

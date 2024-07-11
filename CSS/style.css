@@ -18,26 +18,7 @@
     color: var(--black-color);
 }
 
-.header-link2 {
-    color: var(--gray-color);
-}
 
-.header-link3 {
-    color: var(--gray-color);
-}
-
-.header-link:hover {
-    color: var(--blue-color);
-
-}
-
-.header-link2:hover {
-    color: var(--blue-color);
-}
-
-.header-link3:hover {
-    color: var(--blue-color);
-}
 
 .efect-for-busines h1 {
     color: var(--white-color);
@@ -477,4 +458,30 @@ footer .container{
     padding: 20px;
     margin: 0;
 }
+.header-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.header-item-div {
+    display: flex;
+    align-items: start;
+}
+
+.header-item-div img{
+    margin-right: 10px;
+}
+.header-item-div{
+    margin-right: 20px;
+}
+.header-img{
+    margin-top: 2px;
+
+}
+.header-list-div{
+    color: green;
+}
+
+
 

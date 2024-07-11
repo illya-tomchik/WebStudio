@@ -450,4 +450,31 @@ footer .container{
 .svg-footer-reg {
     fill: var(--white-color);
 }
+.what-we-work-img-div{
+    position: relative;
+
+}
+
+.what-we-work-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.what-we-work-img p{
+    color: var(--white-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(33, 33, 33 , 0.6);
+    width: 89%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: block;
+    padding: 20px;
+    margin: 0;
+}
 

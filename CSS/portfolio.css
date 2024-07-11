@@ -215,7 +215,7 @@ ul {
 
 .footer-reg-list-link {
     margin-left: 15px;
-    background-color: #212121;
+    background-color: rgb(53, 60, 69);
     border-radius: 30px;
 }
 
@@ -263,6 +263,34 @@ footer .container {
 
 .svg-footer-reg {
     fill: var(--white-color);
+}
+.header-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.header-item-div {
+    display: flex;
+    align-items: start;
+}
+
+.header-item-div img {
+    margin-right: 10px;
+}
+
+.header-item-div {
+    margin-right: 20px;
+}
+
+.header-img {
+    margin-top: 2px;
+
+}
+
+.header-img2 {
+    color: chartreuse;
 }
 
 

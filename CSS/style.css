@@ -72,6 +72,29 @@ footer {
 body {
     font-family: 'Roboto', sans-serif;
 }
+.header-link {
+    color: var(--black-color);
+}
+
+.header-link2 {
+    color: var(--gray-color);
+}
+
+.header-link3 {
+    color: var(--gray-color);
+}
+
+.header-link:hover {
+    color: var(--blue-color);
+}
+
+.header-link2:hover {
+    color: var(--blue-color);
+}
+
+.header-link3:hover {
+    color: var(--blue-color);
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -316,7 +339,7 @@ figure.our-team-item {
 
 .our-team-div-svg {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 40px;
 
@@ -334,7 +357,7 @@ figure.our-team-item {
 }
 
 .our-team-list-link {
-    padding: 20px;
+    padding: 10px;
     height: 20px;
 }
 .our-team-svg{
@@ -360,6 +383,7 @@ figure.our-team-item {
 
 .client-list-link {
     border: 1px solid #757575;
+    border-radius: 5px;
 }
 
 
@@ -390,7 +414,7 @@ figure.our-team-item {
 
 .footer-reg-list-link {
     margin-left: 15px;
-    background-color: #212121;
+    background-color: rgb( 53, 60, 69 );
     border-radius: 30px;
 }
 
@@ -479,9 +503,10 @@ footer .container{
     margin-top: 2px;
 
 }
-.header-list-div{
-    color: green;
+.header-img2{
+    color: chartreuse;
 }
+
 
 
 

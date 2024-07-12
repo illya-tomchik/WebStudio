@@ -493,9 +493,6 @@ footer .container{
     align-items: start;
 }
 
-.header-item-div img{
-    margin-right: 10px;
-}
 .header-item-div{
     margin-right: 20px;
 }
@@ -503,8 +500,9 @@ footer .container{
     margin-top: 2px;
 
 }
-.header-img2{
-    color: chartreuse;
+
+.header-link2:hover .header-svg{
+    fill: #2196F3;
 }
 
 

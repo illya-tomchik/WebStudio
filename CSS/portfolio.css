@@ -283,15 +283,27 @@ footer .container {
 .header-item-div {
     margin-right: 20px;
 }
+.header-link2:hover .header-svg {
+    fill: #2196F3;
+}
 
-.header-img {
+.header-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-div-link-svg {
+    display: flex;
+}
+
+#header-svgg {
     margin-top: 2px;
-
+    margin-right: 8px;
 }
 
-.header-img2 {
-    color: chartreuse;
-}
+
+
+
 
 
 

@@ -496,13 +496,20 @@ footer .container{
 .header-item-div{
     margin-right: 20px;
 }
-.header-img{
-    margin-top: 2px;
-
-}
 
 .header-link2:hover .header-svg{
     fill: #2196F3;
+}
+.header-svg{
+    width: 20px;
+    height: 20px;
+}
+.header-div-link-svg{
+    display: flex;
+}
+#header-svgg{
+    margin-top: 2px;
+    margin-right: 8px;
 }
 
 

@@ -27,25 +27,23 @@
                         <div class="header-item-div">
                             <div class="header-list-div">
                                 <li class="header-item"><a href=" mailto:info@devstudio.com" class="header-link2">
-                                    <div class="header-div-link-svg"><svg
-                                            class="header-svg" id="header-svgg">
-                                            <use href="./symbol-defss.svg#icon-envelope-hover" width="16px"
-                                                height="12px" class="header-img"></use>
-                                        </svg>
-                                    <g>info@devstudio.com</g>
-                                    </div>
-                                </a></li>
+                                        <div class="header-div-link-svg"><svg class="header-svg" id="header-svgg">
+                                                <use href="./symbol-defss.svg#icon-envelope-hover" width="16px"
+                                                    height="12px" class="header-img"></use>
+                                            </svg>
+                                            <g>info@devstudio.com</g>
+                                        </div>
+                                    </a></li>
                             </div>
                         </div>
                         <div class="header-item-div">
                             <div class="header-list-div">
                                 <li class="header-item"><a href="tel:+380961111111" class="header-link2">
-                                    <div class="header-div-link-svg"><svg
-                                            class="header-svg">
-                                            <use href="./symbol-defss.svg#icon-smartphone-1" width="10px" height="16px"
-                                                class="header-img"></use>
-                                        </svg>  
-                                        <g>+380961111111</g>
+                                        <div class="header-div-link-svg"><svg class="header-svg">
+                                                <use href="./symbol-defss.svg#icon-smartphone-1" width="10px"
+                                                    height="16px" class="header-img"></use>
+                                            </svg>
+                                            <g>+380961111111</g>
                                         </div>
                                     </a></li>
                             </div>
@@ -58,8 +56,31 @@
     <main>
         <section class="efect-for-busines">
             <div class="container">
-                <h1>Ефективні рішення для вашого бізнесу</h1>
-                <button type="button">Замовити послугу</button>
+                <h1 class="efect-for-busines-h1">Ефективні рішення для вашого бізнесу</h1>
+                <button data-modal-open class="efect-for-busines-button">Замовити послугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <h2>Залиште свої данні, ми вам передзвонимо</h2>
+                        <form>
+                            <label>
+                                <input type="text" placeholder="">
+                            </label>
+                            <label>
+                                <svg>
+                                    <use></use>
+                                </svg>
+                                <input type="number" id="number" placeholder="">
+                            </label>
+                            <label>
+                                <input type="email" id="email" placeholder="">
+                            </label>
+                            <label>
+                                <textarea type="text" placeholder="Введіть текст">
+                        </label>
+                        </form>
+                        <button data-modal-close>Закрити</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="efect-for-busines-section">
@@ -305,6 +326,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

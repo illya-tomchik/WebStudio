@@ -657,13 +657,25 @@ footer .container {
 .button-modal-list {
     width: 200px;
     height: 50px;
-    margin-left: 164px;
+    margin-left: 156px;
 }
 .svg-modal-icon:hover input{
     fill: var(--blue-color);
 
 }
+.div-modal-icon:hover svg{
+    color:#2196F3
+}
+.modal input:hover{
+    border-color: #2196F3;
+}
 .div-modal-icon-svg:hover .svg-modal-icon{
+    fill: #2196F3;
+}
+.div-modal-icon-svg-2:hover .svg-modal-icon {
+    fill: #2196F3;
+}
+.div-modal-icon-svg-3:hover .svg-modal-icon {
     fill: #2196F3;
 }
 .div-svg-modal-icon-input:hover{
@@ -702,4 +714,32 @@ footer .container {
 .svg-footer-button-subscribe{
     margin-left: 10px ;
     fill: #FFFFFF;
+}
+.div-modal-icon-input{
+    position: relative;
+}
+.div-modal-icon-svg{
+    position: absolute;
+    top: 127px;
+    left: 62px;
+}
+.div-modal-icon-svg-2{
+    position: absolute;
+    top: 200px;
+    left: 62px;
+}
+.div-modal-icon-svg-3{
+    position: absolute;
+    top: 271px;
+    left: 62px;
+}
+.input-modal{
+    width: 448px;
+}
+.textarea-modal{
+    width: 448px;
+    height: 100px;
+}
+.form-modal{
+    margin-left: 30px;
 }

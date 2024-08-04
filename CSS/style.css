@@ -188,14 +188,16 @@ body {
     margin-top: 30px;
     padding: 10px 32px;
 }
-.button-efect-for-busines{
+
+.button-efect-for-busines {
     background-color: var(--blue-color);
     color: #FFFFFF;
     padding: 15px 20px;
     border: 0px;
     border-radius: 5px
 }
-.div-button-efect-for-busines{
+
+.div-button-efect-for-busines {
     text-align: center;
 }
 
@@ -621,7 +623,7 @@ footer .container {
 }
 
 .modal .close {
-    position: absolute ;
+    position: absolute;
     top: 10px;
     right: 10px;
     border-radius: 30px;
@@ -635,7 +637,7 @@ footer .container {
 }
 
 .modal .checkbox-label {
-    display: flex; 
+    display: flex;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
@@ -645,7 +647,8 @@ footer .container {
 .modal .checkbox-label input {
     margin-right: 10px;
 }
-.checkbox-label a{
+
+.checkbox-label a {
     color: var(--blue-color);
     border-bottom: 1px solid var(--blue-color);
 }
@@ -659,35 +662,45 @@ footer .container {
     height: 50px;
     margin-left: 156px;
 }
-.svg-modal-icon:hover input{
+
+.svg-modal-icon:hover input {
     fill: var(--blue-color);
 
 }
-.div-modal-icon:hover svg{
-    color:#2196F3
+
+.div-modal-icon:hover svg {
+    color: #2196F3
 }
-.modal input:hover{
+
+.modal input:hover {
     border-color: #2196F3;
 }
-.div-modal-icon-svg:hover .svg-modal-icon{
+
+.div-modal-icon-svg:hover .svg-modal-icon {
     fill: #2196F3;
 }
+
 .div-modal-icon-svg-2:hover .svg-modal-icon {
     fill: #2196F3;
 }
+
 .div-modal-icon-svg-3:hover .svg-modal-icon {
     fill: #2196F3;
 }
-.div-svg-modal-icon-input:hover{
+
+.div-svg-modal-icon-input:hover {
     color: #2196F3;
 }
-.footer-div-form-subscribe{
+
+.footer-div-form-subscribe {
     margin-left: 93px;
 }
-.footer-article-subscribe{
+
+.footer-article-subscribe {
     display: flex;
 }
-.footer-button-subscribe{
+
+.footer-button-subscribe {
     margin-left: 12px;
     padding: 10px 28px;
     align-items: center;
@@ -696,50 +709,62 @@ footer .container {
     color: var(--white-color);
     border-radius: 5px;
 }
-.footer-h3-subscribe{
+
+.footer-h3-subscribe {
     color: var(--white-color);
     font-size: 14px;
     text-transform: uppercase;
 }
-.footer-form-subscribe input{
+
+.footer-form-subscribe input {
     padding: 15px 295px 15px 16px;
     background-color: var(--dark-background-color);
-    border-color: rgb(255, 255, 255 , 0.3);
+    border-color: rgb(255, 255, 255, 0.3);
     border-radius: 5px;
 }
-.footer-button-subscribe{
+
+.footer-button-subscribe {
     display: flex;
     justify-content: center;
 }
-.svg-footer-button-subscribe{
-    margin-left: 10px ;
+
+.svg-footer-button-subscribe {
+    margin-left: 10px;
     fill: #FFFFFF;
 }
-.div-modal-icon-input{
+
+.div-modal-icon-input {
     position: relative;
 }
-.div-modal-icon-svg{
+
+.div-modal-icon-svg {
     position: absolute;
     top: 127px;
     left: 62px;
 }
-.div-modal-icon-svg-2{
+
+.div-modal-icon-svg-2 {
     position: absolute;
     top: 200px;
     left: 62px;
 }
-.div-modal-icon-svg-3{
+
+.div-modal-icon-svg-3 {
     position: absolute;
     top: 271px;
     left: 62px;
 }
-.input-modal{
+
+.input-modal {
     width: 448px;
 }
-.textarea-modal{
+
+.textarea-modal {
     width: 448px;
     height: 100px;
 }
-.form-modal{
+
+.form-modal {
     margin-left: 30px;
 }
+

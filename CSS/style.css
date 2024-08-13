@@ -409,8 +409,6 @@ figure.our-team-item {
 
 .our-team-list-link:hover {
     background-color: #2196F3;
-    border-radius: 30px;
-
 
 }
 
@@ -421,11 +419,16 @@ figure.our-team-item {
 .our-team-list-link {
     padding: 10px;
     height: 20px;
+    border-radius: 30px;
 }
 
 .our-team-svg {
     fill: var(--gray-color);
-    transition: fill   250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-team-list-link{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -454,7 +457,7 @@ figure.our-team-item {
 .client-list-link {
     margin-bottom: 94px;
     margin-right: 30px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-client {
@@ -606,9 +609,11 @@ footer .container {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
+    opacity: 1;
     align-items: center;
     justify-content: center;
     z-index: 10;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -700,8 +705,9 @@ footer .container {
     border-bottom: 1px solid var(--blue-color);
 }
 
-.is-hidden {
-    display: none;
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .button-modal-list {
@@ -814,6 +820,9 @@ footer .container {
 
 .form-modal {
     margin-left: 30px;
+}
+.list-card-div-img > img{
+    display: block;
 }
 
 

@@ -12,13 +12,15 @@
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/portfolio.css">
     <link rel="stylesheet" href="CSS/normolize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 <header class="header">
     <div class="container" id="header">
-        <a href="#" class="logo"><img src="img2/webstudio.png" alt="логотип" class="logo"></a>
-        <nav class="header-navigation">
+        <a href="#" class="logo animate__animated animate__fadeInDown animate__slow"><img src="img2/webstudio.png" alt="логотип" class="logo"></a>
+        <nav class="header-navigation animate__animated animate__backInRight animate__slow">
             <ul class="header-list">
                 <li class="header-item"><a href="index.html" class="header-link">Студія </a></li>
                 <li class="header-item"><a href="index2.html" class="header-link"> Портфоліо </a></li>
@@ -57,15 +59,15 @@
         <div class="container">
             <section class="post">
                 <ul class="post-list">
-                    <li class="list-button"><button type="button" class="post-button">Усі</button></li>
-                    <li class="list-button"><button type="button" class="post-button">Веб-сайти</button></li>
-                    <li class="list-button"><button type="button" class="post-button">Додатки</button></li>
-                    <li class="list-button"><button type="button" class="post-button">Дизайн</button></li>
-                    <li class="list-button"><button type="button" class="post-button">Маркетінг</button></li>
+                    <li class="list-button animate__animated animate__bounceInUp"><button type="button" class="post-button">Усі</button></li>
+                    <li class="list-button animate__animated animate__bounceInDown"><button type="button" class="post-button">Веб-сайти</button></li>
+                    <li class="list-button animate__animated animate__bounceInLeft"><button type="button" class="post-button">Додатки</button></li>
+                    <li class="list-button animate__animated animate__bounceInRight"><button type="button" class="post-button">Дизайн</button></li>
+                    <li class="list-button animate__animated animate__bounceInUp"><button type="button" class="post-button">Маркетінг</button></li>
                 </ul>
                 <div class="card">
-                    <article class="list-card">
-                        <figure class="img-card" data-aos="fade-right">
+                    <article class="list-card" data-aos="flip-left"  data-aos-duration="1000">
+                        <figure class="img-card" >
                             <div class="list-card-div-img">
                             <img src="img2/img.png" alt="фото1">
                             <div class="list-card-div-p">
@@ -81,7 +83,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card"  data-aos="flip-up"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(1).png" alt="фото2" class="img-list-card">
@@ -98,7 +100,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card" data-aos="flip-right"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(2).png" alt="фото3">
@@ -115,7 +117,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card" data-aos="flip-left"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(3).png" alt="фото4">
@@ -132,7 +134,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card"  data-aos="flip-up"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(4).png" alt="фото5">
@@ -149,7 +151,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card" data-aos="flip-right"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(5).png" alt="фото5">
@@ -166,7 +168,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card" data-aos="flip-left"  data-aos-duration="1000">
                         <figure class="img-card">
                         <div class="list-card-div-img">
                             <img src="img2/img(6).png" alt="фото6">
@@ -183,7 +185,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card"  data-aos="flip-up"  data-aos-duration="1000">
                         <figure class="img-card">
                             <div class="list-card-div-img">
                                 <img src="img2/img(7).png" alt="фото7">
@@ -200,7 +202,7 @@
                             </figcaption>
                         </figure>
                     </article>
-                    <article class="list-card">
+                    <article class="list-card" data-aos="flip-right"  data-aos-duration="1000"> 
                         <figure class="img-card">
                         <div class="list-card-div-img">
                             <img src="img2/img(8).png" alt="фото8">
@@ -232,7 +234,7 @@
                 <a href="tel:+380961111111" class="footer-link">+380961111111</a>
             </div>
                     <div class="div-footer-reg">
-                        <h3 class="h3-footer-reg">Приєднуйтесь</h3>
+                        <h3 class="h3-footer-reg animate__animated animate__heartBeat animate__slow animate__infinite">Приєднуйтесь</h3>
                         <article class="article-reg">
                             <a href="#" class="footer-reg-list-link">
                                 <svg class="svg-footer-reg" width="20px" height="20px">
@@ -263,7 +265,7 @@
                                 <label></label>
                                 <input type="email" id="email" name="email" required placeholder="E-mail">
                             </form>
-                            <button type="button" class="footer-button-subscribe">
+                            <button type="button" class="footer-button-subscribe animate__animated animate__tada animate__slow animate__infinite">
                                 <g>Підписатися</g><svg width="24px" height="24px" class="svg-footer-button-subscribe">
                                     <use href="./symbol-defs-footer-HW4.svg#icon-icon-send"></use>
                                 </svg>
@@ -273,6 +275,10 @@
             </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

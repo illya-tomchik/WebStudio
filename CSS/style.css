@@ -824,6 +824,38 @@ footer .container {
 .list-card-div-img > img{
     display: block;
 }
+.efect-for-busines-item{
+    animation-name: changeColor ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    display: block;
+}
+@keyframes changeColor{
+    0%{
+    transform: translateX(0);
+    opacity: 1;
+    }
+    25%{
+        transform: translateX(50px);
+        opacity: 0.5;
+
+    }
+    50%{
+        transform: translateX(100px);
+        opacity: 1.5;
+
+    }
+    75%{
+        transform: translateX(50px);
+        opacity: 0.5;
+
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
 
 
 

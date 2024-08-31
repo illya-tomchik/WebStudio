@@ -1,0 +1,173 @@
+.efect-for-busines h1 {
+    color: var(--white-color);
+}
+
+.efect-for-busines-button {
+    color: var(--white-color);
+    background-color: var(--blue-background-color);
+}
+
+.efect-for-busines {
+    background-color: var(--dark-background-color);
+}
+
+.efect-for-busines-item h4 {
+    color: var(--black-color);
+}
+
+.efect-for-busines-item p {
+    color: var(--gray-color);
+}
+.efect-for-busines-h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.efect-for-busines-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+.efect-for-busines-item h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.efect-for-busines-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.efect-for-busines {
+    padding: 200px 0;
+}
+
+.efect-for-busines-h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.efect-for-busines-button {
+    margin-top: 30px;
+    padding: 10px 32px;
+}
+
+.button-efect-for-busines {
+    background-color: var(--blue-color);
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 5px
+}
+
+.div-button-efect-for-busines {
+    text-align: center;
+}
+
+.efect-for-busines-section {
+    margin-top: 48px;
+    margin-bottom: 94px;
+}
+.efect-for-busines-list-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.efect-for-busines-item {
+    width: 270px;
+}
+.efect-for-busines-item:nth-child(1)::before {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    background: url("../img2/antenna\(1\).png");
+    background-position: center;
+    background-color: var(--white-gray-color);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 120px;
+
+}
+
+.efect-for-busines-item:nth-child(2)::before {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    background: url("../img2/clock\(1\).png");
+    background-position: center;
+    background-color: var(--white-gray-color);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 120px;
+}
+
+.efect-for-busines-item:nth-child(3)::before {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    background: url("../img2/diagram\(1\).png");
+    background-position: center;
+    background-color: var(--white-gray-color);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 120px;
+}
+
+.efect-for-busines-item:nth-child(4)::before {
+    content: "";
+    display: block;
+    margin-bottom: 30px;
+    background: url("../img2/astronaut\(1\).png");
+    background-position: center;
+    background-color: var(--white-gray-color);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 120px;
+}
+.efect-for-busines {
+    background-image: linear-gradient(to right, rgb(47, 48, 58, 0.2), rgb(130, 132, 160, 0.2)), url(../img2/img\(17\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.efect-for-busines-item {
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    display: block;
+}
+
+@keyframes changeColor {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    25% {
+        transform: translateX(50px);
+        opacity: 0.5;
+
+    }
+
+    50% {
+        transform: translateX(100px);
+        opacity: 1.5;
+
+    }
+
+    75% {
+        transform: translateX(50px);
+        opacity: 0.5;
+
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}

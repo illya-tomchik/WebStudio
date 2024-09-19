@@ -1,45 +1,55 @@
 .our-team>h2 {
-    color: var(--black-color);
+    color: $black-color;
 }
 
 .our-team-worker-description>h3 {
-    color: var(--black-color);
+    color: $black-color;
 }
 
 .our-team-worker-description>p {
-    color: var(--gray-color);
+    color: $gray-color;
 }
+
 .our-team h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
 }
 
-.our-team-worker-description h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+.our-team-worker-description {
+    h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+    }
 }
 
-.our-team-worker-description p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-}
 .our-team h2 {
     margin-bottom: 50px;
-}
-.our-team h2 {
     text-align: center;
 }
+
 
 .our-team-list {
     display: flex;
     justify-content: space-between;
+
+    .our-team-item {
+            background-color: white;
+            box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.19);
+        }
 }
+
 .our-team-item img {
     width: 100%;
 }
+
 figure.our-team-item {
     margin: 0;
     width: 270px;
@@ -48,15 +58,11 @@ figure.our-team-item {
 
 .our-team {
     padding: 50px 0;
-    background-color: var(--whitegray-color);
+    background-color: $white-gray-color;
 }
 
-.our-team-item {
-    background-color: white;
-}
-.our-team-item {
-    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.19);
-}
+
+
 .our-team-div-svg {
     display: flex;
     justify-content: space-around;
@@ -68,24 +74,21 @@ figure.our-team-item {
 .our-team-list-link:hover {
     background-color: #2196F3;
 
+    .our-team-svg {
+        fill: #F5F4FA;
+    }
+
 }
 
-.our-team-list-link:hover .our-team-svg {
-    fill: #F5F4FA;
-}
 
 .our-team-list-link {
     padding: 10px;
     height: 20px;
     border-radius: 30px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-svg {
-    fill: var(--gray-color);
+    fill: $gray-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-team-list-link {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }

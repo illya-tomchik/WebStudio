@@ -1,64 +1,58 @@
-.efect-for-busines h1 {
-    color: var(--white-color);
-}
-
-.efect-for-busines-button {
-    color: var(--white-color);
-    background-color: var(--blue-background-color);
-}
-
 .efect-for-busines {
-    background-color: var(--dark-background-color);
-}
+    background-color: $dark-background-color;
+    padding: 200px 0;
+    background-image: linear-gradient(to right, rgb(47, 48, 58, 0.2), rgb(130, 132, 160, 0.2)), url(../img2/img\(17\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
-.efect-for-busines-item h4 {
-    color: var(--black-color);
-}
-
-.efect-for-busines-item p {
-    color: var(--gray-color);
-}
-.efect-for-busines-h1 {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    h1 {
+        color: $white-color;
+    }
 }
 
 .efect-for-busines-button {
+    color: $white-color;
+    background-color: $blue-background-color;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-
-}
-
-.efect-for-busines-item h4 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-}
-
-.efect-for-busines-item p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-}
-.efect-for-busines {
-    padding: 200px 0;
-}
-
-.efect-for-busines-h1 {
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.efect-for-busines-button {
     margin-top: 30px;
     padding: 10px 32px;
 }
 
+.efect-for-busines-item {
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    display: block;
+    width: 270px;
+
+    h4 {
+        color: $black-color;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
+    p {
+        color: $gray-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}
+
+.efect-for-busines-h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .button-efect-for-busines {
-    background-color: var(--blue-color);
+    background-color: $blue-color;
     color: #FFFFFF;
     padding: 15px 20px;
     border: 0px;
@@ -73,21 +67,19 @@
     margin-top: 48px;
     margin-bottom: 94px;
 }
+
 .efect-for-busines-list-ul {
     display: flex;
     justify-content: space-between;
 }
 
-.efect-for-busines-item {
-    width: 270px;
-}
 .efect-for-busines-item:nth-child(1)::before {
     content: "";
     display: block;
     margin-bottom: 30px;
     background: url("../img2/antenna\(1\).png");
     background-position: center;
-    background-color: var(--white-gray-color);
+    background-color: $white-gray-color;
     background-repeat: no-repeat;
     width: 270px;
     height: 120px;
@@ -100,7 +92,7 @@
     margin-bottom: 30px;
     background: url("../img2/clock\(1\).png");
     background-position: center;
-    background-color: var(--white-gray-color);
+    background-color: $white-gray-color;
     background-repeat: no-repeat;
     width: 270px;
     height: 120px;
@@ -112,7 +104,7 @@
     margin-bottom: 30px;
     background: url("../img2/diagram\(1\).png");
     background-position: center;
-    background-color: var(--white-gray-color);
+    background-color: $white-gray-color;
     background-repeat: no-repeat;
     width: 270px;
     height: 120px;
@@ -124,21 +116,10 @@
     margin-bottom: 30px;
     background: url("../img2/astronaut\(1\).png");
     background-position: center;
-    background-color: var(--white-gray-color);
+    background-color: $white-gray-color;
     background-repeat: no-repeat;
     width: 270px;
     height: 120px;
-}
-.efect-for-busines {
-    background-image: linear-gradient(to right, rgb(47, 48, 58, 0.2), rgb(130, 132, 160, 0.2)), url(../img2/img\(17\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.efect-for-busines-item {
-    animation-name: changeColor;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
-    display: block;
 }
 
 @keyframes changeColor {
